@@ -1,0 +1,52 @@
+{
+  "intro": [
+    "Each program features Rachel D.K. Clark's original wearable art designs and highlights the visual energy and storytelling of her work.",
+    "Rachel typically presents more than twenty garments in a wide range of styles, from casual to elegant. Her commentary is witty, anecdotal, and often poignant. Members of your group or organization are invited to participate as models, adding a personal and engaging dimension to the event.",
+    "Most programs run approximately one hour and can be adjusted to fit your schedule. Rachel is also available for longer, symposium-style workshops and presentations.",
+    "The programs below represent Rachel's current offerings and can be tailored to meet the interests and needs of your group."
+  ],
+  "programs": [
+    {
+      "slug": "clothing-body-soul",
+      "title": "Clothing for the Body and Soul",
+      "imageSrc": "/images/works/shows/clothing-body-soul.jpg",
+      "description": "This show combines Rachel's wearable art with stories about the “hows and whys” behind her designs. The program features a wide range of garments, including ensembles, coats, jackets, vests, and dresses. It works especially well for longer time blocks and can be expanded to fit a variety of schedules.",
+      "inquirySubject": "Shows & Talks Inquiry: Clothing for the Body and Soul"
+    },
+    {
+      "slug": "ethnic-influences",
+      "title": "Ethnic and Ethnically Influenced Garments",
+      "imageSrc": "/images/works/shows/ethnic-influences.jpg",
+      "description": "This program features garments inspired by specific cultures and global design traditions. Examples include a Russian Cossack ensemble, a hoari coat influenced by Japanese design, and a mud cloth ensemble titled Out for Lunch, created with African textiles. These and other culturally influenced pieces reflect Rachel's ongoing exploration of tradition, history, and cross-cultural design.",
+      "inquirySubject": "Shows & Talks Inquiry: Ethnic and Ethnically Influenced Garments"
+    },
+    {
+      "slug": "git-de-blues",
+      "title": "Everybody Git de Blues Sometime",
+      "imageSrc": "/images/works/shows/git-de-blues.jpg",
+      "description": "This show is a reflection and celebration of Rachel's love for the color blue. Each garment features blue as a dominant or meaningful element, woven into the design for expressive and symbolic reasons. Through these pieces, Rachel shows you why she loves to be blue!",
+      "inquirySubject": "Shows & Talks Inquiry: Everybody Git de Blues Sometime"
+    },
+    {
+      "slug": "let-your-clothes-speak",
+      "title": "Let Your Clothes Speak for You",
+      "imageSrc": "/images/works/shows/let-your-clothes-speak.jpg",
+      "description": "This collaborative program features Rachel's garments alongside the work of host guild members. Rachel presents a selection of her own designs, including coats, vests, and ensembles, and complements them with pieces created by participants. The program offers a meaningful way to showcase local talent and recognize the creative work within your community.",
+      "inquirySubject": "Shows & Talks Inquiry: Let Your Clothes Speak for You"
+    },
+    {
+      "slug": "not-just-another-coat",
+      "title": "Not Just Another Coat",
+      "imageSrc": "/images/works/shows/not-just-another-coat.jpg",
+      "description": "This program features coats and jackets created as part of Rachel's “Year of the Coat” series. What began as a focused exploration has grown into a long-term creative theme, and Rachel shares both recent designs and longtime favorites that reflect this evolving body of work.",
+      "inquirySubject": "Shows & Talks Inquiry: Not Just Another Coat"
+    },
+    {
+      "slug": "something-to-celebrate",
+      "title": "So You Got Something to Celebrate",
+      "imageSrc": "/images/works/shows/something-to-celebrate.jpg",
+      "description": "This program features garments created for holidays and special occasions, including Rachel's birthday, her son's wedding, Christmas, New Year's, and other meaningful moments. Rachel shares how she designs pieces that honor, celebrate, and commemorate important events and milestones.",
+      "inquirySubject": "Shows & Talks Inquiry: So You Got Something to Celebrate"
+    }
+  ]
+}
