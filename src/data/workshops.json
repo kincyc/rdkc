@@ -1,0 +1,31 @@
+{
+  "intro": [
+    "Rachel offers hands-on workshops designed to build skills, spark creativity, and deepen participants’ engagement with wearable art and textile design. Each workshop can be adapted to meet the needs and experience level of your group."
+  ],
+
+  "workshops": [
+    {
+      "slug": "wearable-art-vest-workshop",
+      "title": "Wearable Art Vest Workshop",
+      "imageSrc": "/images/workshops/wearable-art-vest-workshop.jpg",
+      "description": "A hands-on workshop where participants create a one-of-a-kind vest using improvisational piecing and surface design techniques. Suitable for intermediate sewists and quilters. Ideal class size: 10–15 participants. Two-day format (6 hours per day). Available in person.",
+      "inquirySubject": "Workshop Inquiry: Wearable Art Vest Workshop"
+    },
+
+    {
+      "slug": "color-and-fabric-play",
+      "title": "Color & Fabric Play",
+      "imageSrc": "/images/workshops/color-and-fabric-play.jpg",
+      "description": "An exploratory class focused on bold color combinations, texture mixing, and intuitive design. No sewing machine required — this workshop builds confidence with fabric before cutting. Great for beginners. Ideal class size: 8–20 participants. Half-day format. Available in person or online.",
+      "inquirySubject": "Workshop Inquiry: Color & Fabric Play"
+    },
+
+    {
+      "slug": "custom-workshop",
+      "title": "Custom Workshop for Your Group",
+      "imageSrc": "/images/workshops/custom-workshop.jpg",
+      "description": "Rachel designs tailored workshops for guilds, retreats, and art centers. Topics range from coat construction to embellishment techniques. Contact Rachel to discuss your group’s experience level, interests, and preferred format.",
+      "inquirySubject": "Workshop Inquiry: Custom Workshop for Your Group"
+    }
+  ]
+}
