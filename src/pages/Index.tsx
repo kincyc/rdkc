@@ -59,7 +59,7 @@ const Index = () => {
           <h2 className="text-xl md:text-2xl mb-10 md:mb-14" style={{ fontFamily: 'var(--font-display)' }}>
             Shows & Talks
           </h2>
-          <AlternatingSection programs={showsData.programs} intro={showsData.intro} />
+          <AlternatingSection programs={showsData.programs} intro={showsData.intro} layout="alternating"/>
         </section>
 
         {/* Workshops & Classes */}
