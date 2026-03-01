@@ -84,6 +84,8 @@ export default function Lightbox({ images, currentIndex, isOpen, onClose }: Ligh
     <div
       className="fixed inset-0 z-[100] flex items-center justify-center"
       style={{ transition: `opacity ${duration}ms ease-out` }}
+      // New
+      onClick={onClose}
     >
       {/* Backdrop */}
       <div
@@ -94,8 +96,10 @@ export default function Lightbox({ images, currentIndex, isOpen, onClose }: Ligh
 
       {/* Close button */}
       <button
-        onClick={onClose}
-        className="absolute top-4 right-4 z-10 text-white/80 hover:text-white transition-colors"
+        onClick={(e) => { e.stopPropagation(); onClose(); }} // NEW: stop bubbling
+        // onClick={onClose}
+        // className="absolute top-4 right-4 z-10 text-white/80 hover:text-white transition-colors"
+        className="absolute top-4 right-4 z-10 text-white/80 hover:text-white transition-colors pointer-events-auto"
         aria-label="Close lightbox"
       >
         <X className="h-6 w-6" />
@@ -103,7 +107,8 @@ export default function Lightbox({ images, currentIndex, isOpen, onClose }: Ligh
 
       {/* Content */}
       <div
-        className="relative z-10 flex flex-col items-center max-w-5xl w-full mx-4 max-h-[90vh]"
+        // className="relative z-10 flex flex-col items-center max-w-5xl w-full mx-4 max-h-[90vh]"
+        className="relative z-10 flex flex-col items-center max-w-5xl w-full mx-4 max-h-[90vh] pointer-events-none"
         style={{
           transform: `translateY(${dragY}px)`,
           transition: dragY === 0 ? `transform ${duration}ms ease-out` : 'none',
@@ -111,26 +116,32 @@ export default function Lightbox({ images, currentIndex, isOpen, onClose }: Ligh
         onTouchStart={handleTouchStart}
         onTouchMove={handleTouchMove}
         onTouchEnd={handleTouchEnd}
+        onClick={(e) => e.stopPropagation()} // NEW: clicking inside does NOT close
       >
         <img
           src={assetUrl(image.src)}
           alt={image.alt || image.title}
-          className="max-h-[70vh] w-auto max-w-full object-contain"
+          // className="max-h-[70vh] w-auto max-w-full object-contain"
+            className="max-h-[70vh] w-auto max-w-full object-contain pointer-events-auto"
+          onClick={(e) => e.stopPropagation()} // NEW: belt-and-suspenders
           onError={(e) => {
             (e.currentTarget as HTMLImageElement).src = assetUrl(siteConfig.ui.placeholderImageSrc);
           }}
         />
-        <div className="mt-4 text-center max-w-lg">
-          <h3 className="text-white text-lg" style={{ fontFamily: 'var(--font-display)' }}>
+                <div
+          className="mt-4 text-center max-w-lg pointer-events-auto"
+          onClick={(e) => e.stopPropagation()}
+        >
+          <h3 className="text-white text-lg" style={{ fontFamily: "var(--font-display)" }}>
             {image.title}
           </h3>
-          {image.year && (
-            <p className="text-white/60 text-sm mt-1">{image.year}</p>
-          )}
+
+          {image.year && <p className="text-white/60 text-sm mt-1">{image.year}</p>}
+
           {image.description && (
             <p
               className="text-white/70 text-sm mt-3 max-h-32 overflow-y-auto"
-              style={{ fontFamily: 'var(--font-body)' }}
+              style={{ fontFamily: "var(--font-body)" }}
             >
               {image.description}
             </p>
