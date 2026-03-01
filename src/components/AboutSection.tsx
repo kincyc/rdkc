@@ -1,5 +1,6 @@
 import aboutData from '@/data/about.json';
 import { siteConfig } from '@/config/siteConfig';
+import { assetUrl } from "@/lib/assetUrl";
 
 export default function AboutSection() {
   return (
@@ -7,11 +8,11 @@ export default function AboutSection() {
       <div className="flex flex-col md:flex-row gap-8 md:gap-12">
         <div className="w-full md:w-2/5">
           <img
-            src={aboutData.portraitImage}
+            src={assetUrl(aboutData.portraitImage)}
             alt="Rachel D.K. Clark"
             className="w-full h-auto"
             onError={(e) => {
-              (e.currentTarget as HTMLImageElement).src = siteConfig.ui.placeholderImageSrc;
+              (e.currentTarget as HTMLImageElement).src = assetUrl(siteConfig.ui.placeholderImageSrc);
             }}
           />
         </div>

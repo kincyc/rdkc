@@ -1,5 +1,7 @@
 import { siteConfig } from '@/config/siteConfig';
 import { useContactPrefill } from '@/hooks/useContactPrefill';
+import { assetUrl } from "@/lib/assetUrl";
+
 
 interface Program {
   slug: string;
@@ -27,7 +29,7 @@ export interface AlternatingSectionProps {
 }
 
 function ProgramImage({ src, alt }: { src: string; alt: string }) {
-  const resolvedSrc = src?.trim() ? src : siteConfig.ui.placeholderImageSrc;
+  const resolvedSrc = src?.trim() ? src : assetUrl(siteConfig.ui.placeholderImageSrc);
 
   return (
     <img
@@ -36,7 +38,7 @@ function ProgramImage({ src, alt }: { src: string; alt: string }) {
       className="w-full h-full object-cover"
       loading="lazy"
       onError={(e) => {
-        (e.currentTarget as HTMLImageElement).src = siteConfig.ui.placeholderImageSrc;
+        (e.currentTarget as HTMLImageElement).src = assetUrl(siteConfig.ui.placeholderImageSrc);
       }}
     />
   );
@@ -92,7 +94,7 @@ function AlternatingRow({
         className="overflow-hidden bg-muted/20 flex-shrink-0"
         style={{ width: `${imageSizePx}px`, height: `${imageSizePx}px` }}
       >
-        <ProgramImage src={program.imageSrc} alt={program.title} />
+        <ProgramImage src={assetUrl(program.imageSrc)} alt={program.title} />
       </div>
     </div>
   );

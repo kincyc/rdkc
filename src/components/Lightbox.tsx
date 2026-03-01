@@ -1,6 +1,7 @@
 import { useEffect, useCallback, useRef, useState } from 'react';
 import { siteConfig } from '@/config/siteConfig';
 import { X } from 'lucide-react';
+import { assetUrl } from "@/lib/assetUrl";
 
 interface LightboxImage {
   src: string;
@@ -112,11 +113,11 @@ export default function Lightbox({ images, currentIndex, isOpen, onClose }: Ligh
         onTouchEnd={handleTouchEnd}
       >
         <img
-          src={image.src}
+          src={assetUrl(image.src)}
           alt={image.alt || image.title}
           className="max-h-[70vh] w-auto max-w-full object-contain"
           onError={(e) => {
-            (e.currentTarget as HTMLImageElement).src = siteConfig.ui.placeholderImageSrc;
+            (e.currentTarget as HTMLImageElement).src = assetUrl(siteConfig.ui.placeholderImageSrc);
           }}
         />
         <div className="mt-4 text-center max-w-lg">
