@@ -1,17 +1,19 @@
 {
-  "email": "rachel@rdkc.art",
-  "phone": "(831) 555-1234",
+  "email": "rachel@rdkc.com",
   "location": "Watsonville, CA",
 
   "social": {
     "instagram": {
       "url": "https://www.instagram.com/racheldkclark",
       "handle": "@racheldkclark"
+    },
+    "facebook": {
+      "url": "https://www.facebook.com/rdkcpatterns"
     }
   },
 
   "form": {
-    "recipient": "rachel@rdkc.art",
+    "recipient": "rachel@rdkc.com",
     "successMessage": "Thank you for your inquiry. Rachel will be in touch soon.",
     "errorMessage": "There was a problem submitting the form. Please try again or email directly."
   }
