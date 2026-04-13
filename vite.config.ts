@@ -5,8 +5,9 @@ import { componentTagger } from "lovable-tagger";
 
 // https://vitejs.dev/config/
 export default defineConfig(({ mode }) => ({
-  // base: "/rdkc/",
-  base: mode === "production" ? "/rdkc/" : "/",   // IMPORTANT
+  // Use a relative base in production so GitHub Pages works for both
+  // the project site path (`/rdkc/`) and the custom domain root (`/`).
+  base: mode === "production" ? "./" : "/",
   server: {
     
     host: "::",
