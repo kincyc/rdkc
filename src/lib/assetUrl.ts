@@ -1,14 +1,16 @@
-// src/lib/assetUrl.ts
-// export function assetUrl(path: string): string {
-//   // Handles "/images/..." or "images/..."
-//   const clean = path.replace(/^\//, "");
-//   return new URL(clean, import.meta.env.BASE_URL).toString();
-// }
-
-// src/lib/assetUrl.ts
 export function assetUrl(path: string): string {
-    const base = import.meta.env.BASE_URL || "/";
-    const b = base.endsWith("/") ? base.slice(0, -1) : base;     // "/rdkc"
-    const p = path.startsWith("/") ? path : `/${path}`;          // "/images/..."
-    return `${b}${p}`;                                           // "/rdkc/images/..."
+  if (!path) return path;
+
+  // Leave fully-qualified and special protocol URLs untouched.
+  if (/^(?:[a-z]+:)?\/\//i.test(path) || path.startsWith("data:") || path.startsWith("blob:")) {
+    return path;
   }
+
+  const base = import.meta.env.BASE_URL || "/";
+  const normalizedBase = base.endsWith("/") ? base : `${base}/`;
+  const normalizedPath = path
+    .replace(/^\.\//, "")
+    .replace(/^\//, "");
+
+  return `${normalizedBase}${normalizedPath}`;
+}
