@@ -7,7 +7,7 @@ import { componentTagger } from "lovable-tagger";
 export default defineConfig(({ mode }) => ({
   // Use a relative base in production so GitHub Pages works for both
   // the project site path (`/rdkc/`) and the custom domain root (`/`).
-  base: mode === "production" ? "/" : "/",
+  base: mode === "production" ? "./" : "/",
   server: {
     
     host: "::",
