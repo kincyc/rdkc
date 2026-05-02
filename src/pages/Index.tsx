@@ -6,7 +6,6 @@ import AlternatingSection from '@/components/AlternatingSection';
 import SectionHeading from '@/components/SectionHeading';
 import AboutSection from '@/components/AboutSection';
 import ContactSection from '@/components/ContactSection';
-import OnlineWorkshopSection from '@/components/OnlineWorkshopSection';
 import { ContactPrefillProvider } from '@/hooks/useContactPrefill';
 import { siteConfig } from '@/config/siteConfig';
 import { galleryImages } from '@/lib/galleryImages';
@@ -72,14 +71,6 @@ const Index = () => {
             Workshops & Classes
           </SectionHeading>
           <AlternatingSection programs={workshopsData.workshops} intro={workshopsData.intro} />
-        </section>
-
-        {/* Online Workshop */}
-        <section id="online-workshop" className="py-12 md:py-16">
-          <SectionHeading numberOfTriangles={0} triangleSpacing={91}>
-            Online Coat Workshop
-          </SectionHeading>
-          <OnlineWorkshopSection />
         </section>
 
         {/* About */}

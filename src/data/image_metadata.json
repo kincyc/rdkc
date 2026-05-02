@@ -1,210 +1,324 @@
 [
   {
-    "src": "/images/gallery/rdkc-001.jpg",
-    "title": "Untitled Garment I",
-    "sortOrder": 18,
-    "year": "2002",
-    "description": "A vibrant wearable art piece showcasing Rachel's layered textile techniques and expressive use of color. This work reflects her blend of tradition and personal storytelling.",
-    "alt": "Colorful wearable art garment by Rachel D.K. Clark"
+    "src": "/images/gallery/gallery-001.jpg",
+    "title": "",
+    "description": "",
+    "alt": "",
+    "sortOrder": 11
   },
   {
-    "src": "/images/gallery/rdkc-002.jpg",
-    "title": "Untitled Garment II",
-    "sortOrder": 4,
-    "year": "1999",
-    "description": "This garment combines intricate fabric patterns with bold structural design. It highlights Rachel's attention to detail and love of visual rhythm.",
-    "alt": "Handcrafted textile garment with patterned fabrics"
+    "src": "/images/gallery/gallery-002.jpg",
+    "title": "",
+    "description": "",
+    "alt": "",
+    "sortOrder": 22
   },
   {
-    "src": "/images/gallery/rdkc-003.jpg",
-    "title": "Untitled Garment III",
-    "sortOrder": 27,
-    "year": "2010",
-    "description": "An expressive piece featuring layered textures and dynamic color contrasts. The design reflects Rachel's roots in traditional quilting and contemporary folk art.",
-    "alt": "Textile art garment with layered fabrics"
+    "src": "/images/gallery/gallery-003.jpg",
+    "title": "",
+    "description": "",
+    "alt": "",
+    "sortOrder": 4
   },
   {
-    "src": "/images/gallery/rdkc-004.jpg",
-    "title": "Untitled Garment IV",
-    "sortOrder": 11,
-    "year": "1985",
-    "description": "This work blends playful pattern combinations with strong visual balance. It demonstrates Rachel's signature approach to wearable storytelling.",
-    "alt": "Wearable art garment with mixed fabric patterns"
+    "src": "/images/gallery/gallery-004.jpg",
+    "title": "",
+    "description": "",
+    "alt": "",
+    "sortOrder": 15
   },
   {
-    "src": "/images/gallery/rdkc-005.jpg",
-    "title": "Untitled Garment V",
-    "sortOrder": 23,
-    "year": "1990",
-    "description": "A richly detailed garment that explores color, movement, and form. The piece reflects Rachel's long-standing commitment to craft and experimentation.",
-    "alt": "Handmade garment with colorful textile design"
+    "src": "/images/gallery/gallery-005.jpg",
+    "title": "",
+    "description": "",
+    "alt": "",
+    "sortOrder": 21
   },
   {
-    "src": "/images/gallery/rdkc-006.jpg",
-    "title": "Untitled Garment VI",
-    "sortOrder": 2,
-    "year": "2008",
-    "description": "This garment features bold contrasts and carefully arranged fabric elements. It highlights the balance between structure and spontaneity in Rachel's work.",
-    "alt": "Artistic textile garment with bold color contrasts"
+    "src": "/images/gallery/gallery-006.jpg",
+    "title": "",
+    "description": "",
+    "alt": "",
+    "sortOrder": 46
   },
   {
-    "src": "/images/gallery/rdkc-007.jpg",
-    "title": "Untitled Garment VII",
-    "sortOrder": 30,
-    "year": "2004",
-    "description": "An imaginative piece that combines traditional quilting influences with contemporary design. The garment reflects Rachel's playful and thoughtful aesthetic.",
-    "alt": "Wearable quilt-inspired garment"
+    "src": "/images/gallery/gallery-007.jpg",
+    "title": "",
+    "description": "",
+    "alt": "",
+    "sortOrder": 43
   },
   {
-    "src": "/images/gallery/rdkc-008.jpg",
-    "title": "Untitled Garment VIII",
-    "sortOrder": 14,
-    "year": "1997",
-    "description": "This work showcases layered patterns and expressive color choices. It illustrates Rachel's ability to merge narrative and craftsmanship.",
-    "alt": "Layered textile garment with expressive colors"
+    "src": "/images/gallery/gallery-008.jpg",
+    "title": "",
+    "description": "",
+    "alt": "",
+    "sortOrder": 23
   },
   {
-    "src": "/images/gallery/rdkc-009.jpg",
-    "title": "Untitled Garment IX",
-    "sortOrder": 7,
-    "year": "2003",
-    "description": "A visually striking garment built from diverse fabric elements. The piece emphasizes Rachel's commitment to originality and cultural reference.",
-    "alt": "Textile art garment with diverse fabric elements"
+    "src": "/images/gallery/gallery-009.jpg",
+    "title": "",
+    "description": "",
+    "alt": "",
+    "sortOrder": 36
   },
   {
-    "src": "/images/gallery/rdkc-010.jpg",
-    "title": "Untitled Garment X",
-    "sortOrder": 25,
-    "year": "2020",
-    "description": "This garment reflects Rachel's interest in pattern, texture, and movement. Its design encourages close viewing and exploration.",
-    "alt": "Handcrafted wearable art garment"
+    "src": "/images/gallery/gallery-010.jpg",
+    "title": "",
+    "description": "",
+    "alt": "",
+    "sortOrder": 17
   },
   {
-    "src": "/images/gallery/rdkc-011.jpg",
-    "title": "Untitled Garment XI",
-    "sortOrder": 9,
-    "year": "2021",
-    "description": "An expressive wearable piece featuring layered construction and bold visual themes. It demonstrates Rachel's evolving creative voice.",
-    "alt": "Colorful layered textile garment"
+    "src": "/images/gallery/gallery-011.jpg",
+    "title": "",
+    "description": "",
+    "alt": "",
+    "sortOrder": 19
   },
   {
-    "src": "/images/gallery/rdkc-012.jpg",
-    "title": "Untitled Garment XII",
-    "sortOrder": 21,
-    "year": "2003",
-    "description": "This work combines strong compositional structure with playful surface design. It reflects Rachel's deep engagement with fabric as a storytelling medium.",
-    "alt": "Structured garment with decorative textile surfaces"
+    "src": "/images/gallery/gallery-012.jpg",
+    "title": "",
+    "description": "",
+    "alt": "",
+    "sortOrder": 44
   },
   {
-    "src": "/images/gallery/rdkc-013.jpg",
-    "title": "Untitled Garment XIII",
-    "sortOrder": 1,
-    "year": "2004",
-    "description": "A richly textured garment that balances tradition and innovation. The piece highlights Rachel's mastery of fabric layering and color harmony.",
-    "alt": "Textured wearable art garment with layered fabrics"
+    "src": "/images/gallery/gallery-013.jpg",
+    "title": "",
+    "description": "",
+    "alt": "",
+    "sortOrder": 19
   },
   {
-    "src": "/images/gallery/rdkc-014.jpg",
-    "title": "Untitled Garment XIV",
-    "sortOrder": 16,
-    "year": "1998",
-    "description": "This garment showcases Rachel's signature blend of craftsmanship, color, and narrative expression. It represents her ongoing exploration of wearable art.",
-    "alt": "Narrative textile garment by Rachel D.K. Clark"
+    "src": "/images/gallery/gallery-014.jpg",
+    "title": "",
+    "description": "",
+    "alt": "",
+    "sortOrder": 1
   },
   {
-    "src": "/images/gallery/alligator_swing_03.jpg",
-    "title": "Alligator Swing 03",
-    "sortOrder": 28,
-    "alt": "Alligator Swing 03"
+    "src": "/images/gallery/gallery-015.jpg",
+    "title": "",
+    "description": "",
+    "alt": "",
+    "sortOrder": 20
   },
   {
-    "src": "/images/gallery/alligator_swing_05.jpg",
-    "title": "Alligator Swing 05",
-    "sortOrder": 6,
-    "alt": "Alligator Swing 05"
+    "src": "/images/gallery/gallery-016.jpg",
+    "title": "",
+    "description": "",
+    "alt": "",
+    "sortOrder": 3
   },
   {
-    "src": "/images/gallery/IMG_0191@0.5x.jpg",
-    "title": "IMG 0191@0.5x",
-    "sortOrder": 20,
-    "alt": "IMG 0191@0.5x"
+    "src": "/images/gallery/gallery-017.jpg",
+    "title": "",
+    "description": "",
+    "alt": "",
+    "sortOrder": 16
   },
   {
-    "src": "/images/gallery/IMG_0194@0.5x.jpg",
-    "title": "IMG 0194@0.5x",
-    "sortOrder": 12,
-    "alt": "IMG 0194@0.5x"
+    "src": "/images/gallery/gallery-018.jpg",
+    "title": "",
+    "description": "",
+    "alt": "",
+    "sortOrder": 27
   },
   {
-    "src": "/images/gallery/IMG_0206@0.5x.jpg",
-    "title": "IMG 0206@0.5x",
-    "sortOrder": 29,
-    "alt": "IMG 0206@0.5x"
+    "src": "/images/gallery/gallery-019.jpg",
+    "title": "",
+    "description": "",
+    "alt": "",
+    "sortOrder": 41
   },
   {
-    "src": "/images/gallery/IMG_0269@0.5x.jpg",
-    "title": "IMG 0269@0.5x",
-    "sortOrder": 15,
-    "alt": "IMG 0269@0.5x"
+    "src": "/images/gallery/gallery-020.jpg",
+    "title": "",
+    "description": "",
+    "alt": "",
+    "sortOrder": 35
   },
   {
-    "src": "/images/gallery/IMG_0337@0.5x.jpg",
-    "title": "IMG 0337@0.5x",
-    "sortOrder": 3,
-    "alt": "IMG 0337@0.5x"
+    "src": "/images/gallery/gallery-021.jpeg",
+    "title": "",
+    "description": "",
+    "alt": "",
+    "sortOrder": 18
   },
   {
-    "src": "/images/gallery/IMG_0343@0.5x.jpg",
-    "title": "IMG 0343@0.5x",
-    "sortOrder": 24,
-    "alt": "IMG 0343@0.5x"
+    "src": "/images/gallery/gallery-022.jpg",
+    "title": "",
+    "description": "",
+    "alt": "",
+    "sortOrder": 32
   },
   {
-    "src": "/images/gallery/IMG_0357@0.5x.jpg",
-    "title": "IMG 0357@0.5x",
-    "sortOrder": 10,
-    "alt": "IMG 0357@0.5x"
+    "src": "/images/gallery/gallery-023.jpg",
+    "title": "",
+    "description": "",
+    "alt": "",
+    "sortOrder": 38
   },
   {
-    "src": "/images/gallery/IMG_0364@0.5x.jpg",
-    "title": "IMG 0364@0.5x",
-    "sortOrder": 26,
-    "alt": "IMG 0364@0.5x"
+    "src": "/images/gallery/gallery-024.jpg",
+    "title": "",
+    "description": "",
+    "alt": "",
+    "sortOrder": 9
   },
   {
-    "src": "/images/gallery/IMG_0366@0.5x.jpg",
-    "title": "IMG 0366@0.5x",
-    "sortOrder": 5,
-    "alt": "IMG 0366@0.5x"
+    "src": "/images/gallery/gallery-025.jpg",
+    "title": "",
+    "description": "",
+    "alt": "",
+    "sortOrder": 34
   },
   {
-    "src": "/images/gallery/IMG_0382@0.5x.jpg",
-    "title": "IMG 0382@0.5x",
-    "sortOrder": 19,
-    "alt": "IMG 0382@0.5x"
+    "src": "/images/gallery/gallery-026.jpg",
+    "title": "",
+    "description": "",
+    "alt": "",
+    "sortOrder": 31
   },
   {
-    "src": "/images/gallery/IMG_0389@0.5x.jpg",
-    "title": "IMG 0389@0.5x",
-    "sortOrder": 13,
-    "alt": "IMG 0389@0.5x"
+    "src": "/images/gallery/gallery-027.jpg",
+    "title": "",
+    "description": "",
+    "alt": "",
+    "sortOrder": 42
   },
   {
-    "src": "/images/gallery/IMG_0415@0.5x.jpg",
-    "title": "IMG 0415@0.5x",
-    "sortOrder": 22,
-    "alt": "IMG 0415@0.5x"
+    "src": "/images/gallery/gallery-028.jpg",
+    "title": "",
+    "description": "",
+    "alt": "",
+    "sortOrder": 39
   },
   {
-    "src": "/images/gallery/IMG_0666.jpeg",
-    "title": "IMG 0666",
-    "sortOrder": 8,
-    "alt": "IMG 0666"
+    "src": "/images/gallery/gallery-030.jpg",
+    "title": "",
+    "description": "",
+    "alt": "",
+    "sortOrder": 10
   },
   {
-    "src": "/images/gallery/IMG_2666.jpg",
-    "title": "IMG 2666",
-    "sortOrder": 17,
-    "alt": "IMG 2666"
+    "src": "/images/gallery/gallery-031.jpg",
+    "title": "",
+    "description": "",
+    "alt": "",
+    "sortOrder": 12
+  },
+  {
+    "src": "/images/gallery/gallery-032.jpg",
+    "title": "",
+    "description": "",
+    "alt": "",
+    "sortOrder": 47
+  },
+  {
+    "src": "/images/gallery/gallery-033.jpg",
+    "title": "",
+    "description": "",
+    "alt": "",
+    "sortOrder": 8
+  },
+  {
+    "src": "/images/gallery/gallery-034.jpg",
+    "title": "",
+    "description": "",
+    "alt": "",
+    "sortOrder": 24
+  },
+  {
+    "src": "/images/gallery/gallery-035.jpg",
+    "title": "",
+    "description": "",
+    "alt": "",
+    "sortOrder": 14
+  },
+  {
+    "src": "/images/gallery/gallery-036.jpg",
+    "title": "",
+    "description": "",
+    "alt": "",
+    "sortOrder": 2
+  },
+  {
+    "src": "/images/gallery/gallery-037.jpg",
+    "title": "",
+    "description": "",
+    "alt": "",
+    "sortOrder": 6
+  },
+  {
+    "src": "/images/gallery/gallery-038.jpg",
+    "title": "",
+    "description": "",
+    "alt": "",
+    "sortOrder": 30
+  },
+  {
+    "src": "/images/gallery/gallery-039.jpg",
+    "title": "",
+    "description": "",
+    "alt": "",
+    "sortOrder": 25
+  },
+  {
+    "src": "/images/gallery/gallery-040.jpg",
+    "title": "",
+    "description": "",
+    "alt": "",
+    "sortOrder": 29
+  },
+  {
+    "src": "/images/gallery/gallery-041.jpg",
+    "title": "",
+    "description": "",
+    "alt": "",
+    "sortOrder": 45
+  },
+  {
+    "src": "/images/gallery/gallery-042.jpg",
+    "title": "",
+    "description": "",
+    "alt": "",
+    "sortOrder": 33
+  },
+  {
+    "src": "/images/gallery/gallery-043.jpg",
+    "title": "",
+    "description": "",
+    "alt": "",
+    "sortOrder": 13
+  },
+  {
+    "src": "/images/gallery/gallery-044.jpg",
+    "title": "",
+    "description": "",
+    "alt": "",
+    "sortOrder": 5
+  },
+  {
+    "src": "/images/gallery/gallery-045.jpg",
+    "title": "",
+    "description": "",
+    "alt": "",
+    "sortOrder": 28
+  },
+  {
+    "src": "/images/gallery/gallery-046.jpg",
+    "title": "",
+    "description": "",
+    "alt": "",
+    "sortOrder": 40
+  },
+  {
+    "src": "/images/gallery/gallery-047.jpg",
+    "title": "",
+    "description": "",
+    "alt": "",
+    "sortOrder": 37
   }
 ]

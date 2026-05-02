@@ -10,7 +10,6 @@ const navHeight = siteConfig.navigation.heightPx;
 const menuItems = [
   { label: 'Shows & Talks', anchor: 'shows' },
   { label: 'Workshops & Classes', anchor: 'workshops' },
-  { label: 'Online Workshop', anchor: 'online-workshop' },
   { label: 'About', anchor: 'about' },
   { label: 'Contact', anchor: 'contact' },
 ];
