@@ -2,14 +2,7 @@ import { useEffect, useCallback, useRef, useState } from 'react';
 import { siteConfig } from '@/config/siteConfig';
 import { X } from 'lucide-react';
 import { assetUrl } from "@/lib/assetUrl";
-
-interface LightboxImage {
-  src: string;
-  title: string;
-  year?: string;
-  description?: string;
-  alt?: string;
-}
+import type { GalleryImage as LightboxImage } from "@/lib/galleryImages";
 
 interface LightboxProps {
   images: LightboxImage[];

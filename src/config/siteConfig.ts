@@ -70,7 +70,7 @@ export const siteConfig: SiteConfig = {
   },
 
   gallery: {
-    numberOfSelectedImages: 12,
+    numberOfSelectedImages: 31,
     showGridCaptions: false,
     masonryColumns: {
       selected: {
@@ -135,7 +135,6 @@ export const siteConfig: SiteConfig = {
   branding: {
     logoSrc: "/images/branding/RDKC-logo-white-background.png",
   },
-
 } as const;
 
 export default siteConfig;

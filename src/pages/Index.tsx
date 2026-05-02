@@ -9,7 +9,7 @@ import ContactSection from '@/components/ContactSection';
 import OnlineWorkshopSection from '@/components/OnlineWorkshopSection';
 import { ContactPrefillProvider } from '@/hooks/useContactPrefill';
 import { siteConfig } from '@/config/siteConfig';
-import imageMetadata from '@/data/image_metadata.json';
+import { galleryImages } from '@/lib/galleryImages';
 import showsData from '@/data/shows.json';
 import workshopsData from '@/data/workshops.json';
 
@@ -19,7 +19,7 @@ import workshopsData from '@/data/workshops.json';
 
 // const sectionStyle = { scrollMarginTop: scrollMargin };
 
-const selectedImages = imageMetadata.slice(0, siteConfig.gallery.numberOfSelectedImages);
+const selectedImages = galleryImages.slice(0, siteConfig.gallery.numberOfSelectedImages);
 
 const Index = () => {
   const [lightboxOpen, setLightboxOpen] = useState(false);

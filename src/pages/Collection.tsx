@@ -4,7 +4,7 @@ import NavBar from '@/components/NavBar';
 import MasonryGallery from '@/components/MasonryGallery';
 import Lightbox from '@/components/Lightbox';
 import { ContactPrefillProvider } from '@/hooks/useContactPrefill';
-import imageMetadata from '@/data/image_metadata.json';
+import { galleryImages } from '@/lib/galleryImages';
 
 const Collection = () => {
   const [lightboxOpen, setLightboxOpen] = useState(false);
@@ -38,7 +38,7 @@ const Collection = () => {
           </Link>
         </div>
         <MasonryGallery
-          images={imageMetadata}
+          images={galleryImages}
           mode="full"
           showCaptions={true}
           onImageClick={openLightbox}
@@ -46,7 +46,7 @@ const Collection = () => {
       </main>
 
       <Lightbox
-        images={imageMetadata}
+        images={galleryImages}
         currentIndex={lightboxIndex}
         isOpen={lightboxOpen}
         onClose={closeLightbox}

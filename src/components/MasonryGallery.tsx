@@ -2,14 +2,7 @@ import { siteConfig } from '@/config/siteConfig';
 import { useBreakpoint } from '@/hooks/useBreakpoint';
 import type { GalleryMode } from '@/config/siteConfig';
 import { assetUrl } from "@/lib/assetUrl";
-
-interface GalleryImage {
-  src: string;
-  title: string;
-  year?: string;
-  description?: string;
-  alt?: string;
-}
+import type { GalleryImage } from "@/lib/galleryImages";
 
 interface MasonryGalleryProps {
   images: GalleryImage[];
