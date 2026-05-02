@@ -5,11 +5,11 @@
 
   "workshops": [
     {
-      "slug": "online-coat-workshop",
-      "title": "Online Coat Workshop",
+      "slug": "coat-workshop",
+      "title": "Coat Workshop",
       "imageSrc": "/images/workshops/coat-workshop.jpg",
-      "description": "Rachel's online coat workshop is a four-part series designed for makers who want to create a one-of-a-kind coat at their own pace. Each session builds on the last, covering pattern selection, fabric preparation, construction techniques, and finishing details. The workshop is self-paced and includes direct input from Rachel throughout the process.",
-      "inquirySubject": "Online Coat Workshop Inquiry"
+      "description": "Rachel's coat workshop is a four-part series designed for makers who want to create a one-of-a-kind coat at their own pace. Each session builds on the last, covering pattern selection, fabric preparation, construction techniques, and finishing details. The workshop is self-paced and includes direct input from Rachel throughout the process.",
+      "inquirySubject": "Workshops & Classes Inquiry: Coat Workshop"
     },
 
     {
