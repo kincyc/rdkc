@@ -26,3 +26,6 @@ dist-ssr
 # Environment variables
 .env
 .env.*
+
+# Gallery image originals (kept locally as backup before WebP compression)
+src/assets/gallery/_originals/
